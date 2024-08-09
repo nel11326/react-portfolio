@@ -1,7 +1,13 @@
+import './index.css'
+
+import Navbar from "./components/navbar/navbar.components";
+import Dashboard from "./components/dashboard/dashboard.components";
+
 function App() {
   return (
-    <div>
-      <h1>Hello World</h1>
+    <div className='container'>
+      <Navbar />
+      <Dashboard />
     </div>
   );
 }
